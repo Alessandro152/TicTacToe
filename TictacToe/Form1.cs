@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace TictacToe
@@ -39,13 +33,13 @@ namespace TictacToe
         {
             if(Jogada == string.Empty || Jogada == "O")
             {
-                Jogada = "X";
                 btn1.Text = "X";
+                Jogada = btn1.Text;
             }
             else
             {
-                Jogada = "O";
                 btn1.Text = "O";
+                Jogada = btn1.Text;
             }
 
             btn1.Enabled = false;
@@ -57,13 +51,13 @@ namespace TictacToe
         {
             if (Jogada == string.Empty || Jogada == "O")
             {
-                Jogada = "X";
                 btn2.Text = "X";
+                Jogada = btn2.Text;
             }
             else
             {
-                Jogada = "O";
                 btn2.Text = "O";
+                Jogada = btn2.Text;
             }
 
             btn2.Enabled = false;
@@ -75,13 +69,13 @@ namespace TictacToe
         {
             if (Jogada == string.Empty || Jogada == "O")
             {
-                Jogada = "X";
                 btn3.Text = "X";
+                Jogada = btn3.Text;
             }
             else
             {
-                Jogada = "O";
                 btn3.Text = "O";
+                Jogada = btn3.Text;
             }
 
             btn3.Enabled = false;
@@ -93,13 +87,13 @@ namespace TictacToe
         {
             if (Jogada == string.Empty || Jogada == "O")
             {
-                Jogada = "X";
                 btn4.Text = "X";
+                Jogada = btn4.Text;
             }
             else
             {
-                Jogada = "O";
                 btn4.Text = "O";
+                Jogada = btn4.Text;
             }
 
             btn4.Enabled = false;
@@ -111,13 +105,13 @@ namespace TictacToe
         {
             if (Jogada == string.Empty || Jogada == "O")
             {
-                Jogada = "X";
                 btn5.Text = "X";
+                Jogada = btn5.Text;
             }
             else
             {
-                Jogada = "O";
                 btn5.Text = "O";
+                Jogada = btn5.Text;
             }
 
             btn5.Enabled = false;
@@ -129,13 +123,13 @@ namespace TictacToe
         {
             if (Jogada == string.Empty || Jogada == "O")
             {
-                Jogada = "X";
                 btn6.Text = "X";
+                Jogada = btn6.Text;
             }
             else
             {
-                Jogada = "O";
                 btn6.Text = "O";
+                Jogada = btn6.Text;
             }
 
             btn6.Enabled = false;
@@ -147,13 +141,13 @@ namespace TictacToe
         {
             if (Jogada == string.Empty || Jogada == "O")
             {
-                Jogada = "X";
                 btn7.Text = "X";
+                Jogada = btn7.Text;
             }
             else
             {
-                Jogada = "O";
                 btn7.Text = "O";
+                Jogada = btn7.Text;
             }
 
             btn7.Enabled = false;
@@ -165,13 +159,13 @@ namespace TictacToe
         {
             if (Jogada == string.Empty || Jogada == "O")
             {
-                Jogada = "X";
                 btn8.Text = "X";
+                Jogada = btn8.Text;
             }
             else
             {
-                Jogada = "O";
                 btn8.Text = "O";
+                Jogada = btn8.Text;
             }
 
             btn8.Enabled = false;
@@ -183,13 +177,13 @@ namespace TictacToe
         {
             if (Jogada == string.Empty || Jogada == "O")
             {
-                Jogada = "X";
                 btn9.Text = "X";
+                Jogada = btn9.Text;
             }
             else
             {
-                Jogada = "O";
                 btn9.Text = "O";
+                Jogada = btn9.Text;
             }
 
             btn9.Enabled = false;
@@ -207,11 +201,11 @@ namespace TictacToe
             {
                 if (Jogada == "X")
                 {
-                    lblResultado.Text = "E a vez de O jogar";
+                    lblResultado.Text = "E a vez de O";
                 }
                 else
                 {
-                    lblResultado.Text = "E a vez de X jogar";
+                    lblResultado.Text = "E a vez de X";
                 }
             }
         }
@@ -298,7 +292,7 @@ namespace TictacToe
             return string.Empty;
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void lblNovoJogo_Click(object sender, EventArgs e)
         {
             CarregarJogo();
         }
