@@ -1,0 +1,9 @@
+C:\Users\joaop_000\Desktop\Fonts.NET\Tic Tac Toe\TictacToe\TictacToe\bin\Debug\TictacToe.exe.config
+C:\Users\joaop_000\Desktop\Fonts.NET\Tic Tac Toe\TictacToe\TictacToe\bin\Debug\TictacToe.exe
+C:\Users\joaop_000\Desktop\Fonts.NET\Tic Tac Toe\TictacToe\TictacToe\bin\Debug\TictacToe.pdb
+C:\Users\joaop_000\Desktop\Fonts.NET\Tic Tac Toe\TictacToe\TictacToe\obj\Debug\TictacToe.csprojAssemblyReference.cache
+C:\Users\joaop_000\Desktop\Fonts.NET\Tic Tac Toe\TictacToe\TictacToe\obj\Debug\TictacToe.Form1.resources
+C:\Users\joaop_000\Desktop\Fonts.NET\Tic Tac Toe\TictacToe\TictacToe\obj\Debug\TictacToe.Properties.Resources.resources
+C:\Users\joaop_000\Desktop\Fonts.NET\Tic Tac Toe\TictacToe\TictacToe\obj\Debug\TictacToe.csproj.GenerateResource.cache
+C:\Users\joaop_000\Desktop\Fonts.NET\Tic Tac Toe\TictacToe\TictacToe\obj\Debug\TictacToe.exe
+C:\Users\joaop_000\Desktop\Fonts.NET\Tic Tac Toe\TictacToe\TictacToe\obj\Debug\TictacToe.pdb
